@@ -1,4 +1,6 @@
 ﻿
+using System.Windows.Forms;
+
 namespace CLASS_SCHEDULING_SYSTEM
 {
     partial class Form3A
@@ -76,8 +78,9 @@ namespace CLASS_SCHEDULING_SYSTEM
             this.panel6.Controls.Add(this.panel5);
             this.panel6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel6.Location = new System.Drawing.Point(0, 0);
+            this.panel6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(1489, 945);
+            this.panel6.Size = new System.Drawing.Size(1106, 1050);
             this.panel6.TabIndex = 7;
             this.panel6.Paint += new System.Windows.Forms.PaintEventHandler(this.panel6_Paint);
             // 
@@ -98,18 +101,20 @@ namespace CLASS_SCHEDULING_SYSTEM
             this.panel3.Controls.Add(this.pictureBox3);
             this.panel3.Controls.Add(this.pictureBox2);
             this.panel3.Controls.Add(this.pictureBox1);
-            this.panel3.Location = new System.Drawing.Point(3, 172);
+            this.panel3.Location = new System.Drawing.Point(3, 228);
+            this.panel3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(393, 1246);
+            this.panel3.Size = new System.Drawing.Size(442, 818);
             this.panel3.TabIndex = 0;
             // 
             // button5
             // 
-            this.button5.Font = new System.Drawing.Font("Segoe UI Variable Display", 12F, System.Drawing.FontStyle.Bold);
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.button5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button5.Location = new System.Drawing.Point(120, 761);
+            this.button5.Location = new System.Drawing.Point(153, 679);
+            this.button5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(226, 43);
+            this.button5.Size = new System.Drawing.Size(254, 55);
             this.button5.TabIndex = 8;
             this.button5.Text = "VIEW SCHEDULE";
             this.button5.UseVisualStyleBackColor = true;
@@ -117,11 +122,12 @@ namespace CLASS_SCHEDULING_SYSTEM
             // 
             // button2
             // 
-            this.button2.Font = new System.Drawing.Font("Segoe UI Variable Display", 12F, System.Drawing.FontStyle.Bold);
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.button2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button2.Location = new System.Drawing.Point(120, 286);
+            this.button2.Location = new System.Drawing.Point(144, 293);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(226, 42);
+            this.button2.Size = new System.Drawing.Size(254, 52);
             this.button2.TabIndex = 6;
             this.button2.Text = "ASSIGN INSTRUCTOR";
             this.button2.UseVisualStyleBackColor = true;
@@ -129,11 +135,12 @@ namespace CLASS_SCHEDULING_SYSTEM
             // 
             // button4
             // 
-            this.button4.Font = new System.Drawing.Font("Segoe UI Variable Display", 12F, System.Drawing.FontStyle.Bold);
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.button4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button4.Location = new System.Drawing.Point(120, 610);
+            this.button4.Location = new System.Drawing.Point(144, 519);
+            this.button4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(226, 47);
+            this.button4.Size = new System.Drawing.Size(254, 55);
             this.button4.TabIndex = 7;
             this.button4.Text = "MAKE SCHEDULE";
             this.button4.UseVisualStyleBackColor = true;
@@ -142,11 +149,12 @@ namespace CLASS_SCHEDULING_SYSTEM
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.White;
-            this.button1.Font = new System.Drawing.Font("Segoe UI Variable Display", 12F, System.Drawing.FontStyle.Bold);
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button1.Location = new System.Drawing.Point(120, 132);
+            this.button1.Location = new System.Drawing.Point(137, 114);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(226, 46);
+            this.button1.Size = new System.Drawing.Size(254, 58);
             this.button1.TabIndex = 5;
             this.button1.Text = "HOME";
             this.button1.UseVisualStyleBackColor = false;
@@ -154,11 +162,12 @@ namespace CLASS_SCHEDULING_SYSTEM
             // 
             // button3
             // 
-            this.button3.Font = new System.Drawing.Font("Segoe UI Variable Display", 12F, System.Drawing.FontStyle.Bold);
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.button3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button3.Location = new System.Drawing.Point(120, 450);
+            this.button3.Location = new System.Drawing.Point(144, 397);
+            this.button3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(226, 44);
+            this.button3.Size = new System.Drawing.Size(254, 55);
             this.button3.TabIndex = 6;
             this.button3.Text = "ASSIGN ROOM";
             this.button3.UseVisualStyleBackColor = true;
@@ -167,45 +176,50 @@ namespace CLASS_SCHEDULING_SYSTEM
             // pictureBox5
             // 
             this.pictureBox5.Image = global::CLASS_SCHEDULING_SYSTEM.Properties.Resources.icons8_calendar_50;
-            this.pictureBox5.Location = new System.Drawing.Point(29, 761);
+            this.pictureBox5.Location = new System.Drawing.Point(50, 669);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(62, 57);
+            this.pictureBox5.Size = new System.Drawing.Size(63, 74);
             this.pictureBox5.TabIndex = 11;
             this.pictureBox5.TabStop = false;
             // 
             // pictureBox4
             // 
             this.pictureBox4.Image = global::CLASS_SCHEDULING_SYSTEM.Properties.Resources.icons8_edit_calendar_50;
-            this.pictureBox4.Location = new System.Drawing.Point(29, 595);
+            this.pictureBox4.Location = new System.Drawing.Point(50, 510);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(71, 62);
+            this.pictureBox4.Size = new System.Drawing.Size(80, 78);
             this.pictureBox4.TabIndex = 9;
             this.pictureBox4.TabStop = false;
             // 
             // pictureBox3
             // 
             this.pictureBox3.Image = global::CLASS_SCHEDULING_SYSTEM.Properties.Resources.icons8_classroom_64;
-            this.pictureBox3.Location = new System.Drawing.Point(29, 440);
+            this.pictureBox3.Location = new System.Drawing.Point(42, 388);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(73, 63);
+            this.pictureBox3.Size = new System.Drawing.Size(82, 79);
             this.pictureBox3.TabIndex = 7;
             this.pictureBox3.TabStop = false;
             // 
             // pictureBox2
             // 
             this.pictureBox2.Image = global::CLASS_SCHEDULING_SYSTEM.Properties.Resources.icons8_person_50;
-            this.pictureBox2.Location = new System.Drawing.Point(29, 277);
+            this.pictureBox2.Location = new System.Drawing.Point(50, 271);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(66, 59);
+            this.pictureBox2.Size = new System.Drawing.Size(74, 74);
             this.pictureBox2.TabIndex = 5;
             this.pictureBox2.TabStop = false;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::CLASS_SCHEDULING_SYSTEM.Properties.Resources.icons8_home_48;
-            this.pictureBox1.Location = new System.Drawing.Point(32, 123);
+            this.pictureBox1.Location = new System.Drawing.Point(50, 114);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(59, 64);
+            this.pictureBox1.Size = new System.Drawing.Size(66, 80);
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
             // 
@@ -214,9 +228,10 @@ namespace CLASS_SCHEDULING_SYSTEM
             this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.panel2.Controls.Add(this.label1);
-            this.panel2.Location = new System.Drawing.Point(813, 79);
+            this.panel2.Location = new System.Drawing.Point(346, 99);
+            this.panel2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(673, 75);
+            this.panel2.Size = new System.Drawing.Size(757, 94);
             this.panel2.TabIndex = 2;
             // 
             // label1
@@ -226,9 +241,9 @@ namespace CLASS_SCHEDULING_SYSTEM
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(261, 26);
+            this.label1.Location = new System.Drawing.Point(294, 32);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(276, 29);
+            this.label1.Size = new System.Drawing.Size(332, 36);
             this.label1.TabIndex = 0;
             this.label1.Text = "ASSIGN INSTRUCTOR";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -240,18 +255,20 @@ namespace CLASS_SCHEDULING_SYSTEM
             this.panel1.Controls.Add(this.button7);
             this.panel1.Controls.Add(this.pictureBox6);
             this.panel1.Location = new System.Drawing.Point(3, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(393, 176);
+            this.panel1.Size = new System.Drawing.Size(442, 220);
             this.panel1.TabIndex = 7;
             // 
             // button7
             // 
             this.button7.BackColor = System.Drawing.Color.White;
-            this.button7.Font = new System.Drawing.Font("Segoe UI Variable Display", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button7.Location = new System.Drawing.Point(101, 78);
+            this.button7.Location = new System.Drawing.Point(114, 98);
+            this.button7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(203, 34);
+            this.button7.Size = new System.Drawing.Size(228, 42);
             this.button7.TabIndex = 7;
             this.button7.Text = "menu";
             this.button7.UseVisualStyleBackColor = false;
@@ -259,9 +276,10 @@ namespace CLASS_SCHEDULING_SYSTEM
             // pictureBox6
             // 
             this.pictureBox6.Image = global::CLASS_SCHEDULING_SYSTEM.Properties.Resources.icons8_menu_50;
-            this.pictureBox6.Location = new System.Drawing.Point(29, 65);
+            this.pictureBox6.Location = new System.Drawing.Point(33, 81);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(52, 57);
+            this.pictureBox6.Size = new System.Drawing.Size(58, 71);
             this.pictureBox6.TabIndex = 6;
             this.pictureBox6.TabStop = false;
             // 
@@ -273,9 +291,10 @@ namespace CLASS_SCHEDULING_SYSTEM
             this.panel5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.panel5.Controls.Add(this.button6);
             this.panel5.Controls.Add(this.panel4);
-            this.panel5.Location = new System.Drawing.Point(521, 273);
+            this.panel5.Location = new System.Drawing.Point(302, 276);
+            this.panel5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(838, 657);
+            this.panel5.Size = new System.Drawing.Size(943, 821);
             this.panel5.TabIndex = 8;
             // 
             // button6
@@ -283,9 +302,10 @@ namespace CLASS_SCHEDULING_SYSTEM
             this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(105)))), ((int)(((byte)(163)))));
             this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.button6.ForeColor = System.Drawing.Color.White;
-            this.button6.Location = new System.Drawing.Point(347, 571);
+            this.button6.Location = new System.Drawing.Point(390, 714);
+            this.button6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(98, 41);
+            this.button6.Size = new System.Drawing.Size(110, 51);
             this.button6.TabIndex = 6;
             this.button6.Text = "Assign ";
             this.button6.UseVisualStyleBackColor = false;
@@ -297,18 +317,20 @@ namespace CLASS_SCHEDULING_SYSTEM
             this.panel4.Controls.Add(this.label3);
             this.panel4.Controls.Add(this.listBox1);
             this.panel4.Controls.Add(this.label2);
-            this.panel4.Location = new System.Drawing.Point(81, 117);
+            this.panel4.Location = new System.Drawing.Point(91, 146);
+            this.panel4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(641, 382);
+            this.panel4.Size = new System.Drawing.Size(721, 478);
             this.panel4.TabIndex = 5;
             // 
             // listBox2
             // 
             this.listBox2.FormattingEnabled = true;
-            this.listBox2.ItemHeight = 16;
-            this.listBox2.Location = new System.Drawing.Point(352, 103);
+            this.listBox2.ItemHeight = 20;
+            this.listBox2.Location = new System.Drawing.Point(396, 129);
+            this.listBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.listBox2.Name = "listBox2";
-            this.listBox2.Size = new System.Drawing.Size(243, 164);
+            this.listBox2.Size = new System.Drawing.Size(273, 204);
             this.listBox2.TabIndex = 8;
             // 
             // label3
@@ -316,19 +338,20 @@ namespace CLASS_SCHEDULING_SYSTEM
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(398, 80);
+            this.label3.Location = new System.Drawing.Point(448, 100);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(112, 24);
+            this.label3.Size = new System.Drawing.Size(134, 26);
             this.label3.TabIndex = 7;
             this.label3.Text = "instructor list";
             // 
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 16;
-            this.listBox1.Location = new System.Drawing.Point(49, 103);
+            this.listBox1.ItemHeight = 20;
+            this.listBox1.Location = new System.Drawing.Point(55, 129);
+            this.listBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(243, 164);
+            this.listBox1.Size = new System.Drawing.Size(273, 204);
             this.listBox1.TabIndex = 6;
             this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
@@ -337,19 +360,20 @@ namespace CLASS_SCHEDULING_SYSTEM
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(95, 80);
+            this.label2.Location = new System.Drawing.Point(107, 100);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(94, 24);
+            this.label2.Size = new System.Drawing.Size(110, 26);
             this.label2.TabIndex = 0;
             this.label2.Text = "course list";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // Form3A
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1489, 945);
+            this.ClientSize = new System.Drawing.Size(1106, 1050);
             this.Controls.Add(this.panel6);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form3A";
             this.Text = "Form3A";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
@@ -395,8 +419,9 @@ namespace CLASS_SCHEDULING_SYSTEM
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ListBox listBox1;
+        public System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.ListBox listBox2;
         private System.Windows.Forms.Label label3;
+        //private readonly PaintEventHandler panel6_Paint;
     }
 }
